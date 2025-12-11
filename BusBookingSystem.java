@@ -32,8 +32,8 @@ public class BusBookingSystem {
                     viewBookings();
                     break;
                 case 4:
-                    System.exit(0);
                     System.out.println("Thank you");
+                    System.exit(0);
                 default:
                     System.out.println("Invalid choice!");
             }
@@ -147,4 +147,5 @@ public class BusBookingSystem {
             System.out.println("Error: " + e);
         }
     }
+
 }
